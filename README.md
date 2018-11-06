@@ -1,3 +1,2 @@
 # Lyrical-GraphQL
-Starter project from a GraphQL course on Udemy.com
-"# s.g-graphql" 
+Starter project from a GraphQL course on Udemy.com by Stephen Grider
