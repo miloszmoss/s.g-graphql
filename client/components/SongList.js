@@ -12,8 +12,8 @@ class SongList extends Component {
     const { songs, loading } = this.props.data;
     if (!loading) {
       return songs.map(song => (
-        <li className="collection-item" key={song.id}>
-          {song.title}
+        <li key={song.id} className="collection-item">
+          <Link to={`/songs/${song.id}`}>{song.title}</Link>
           <i
             onClick={() => this.onSongDelete(song.id)}
             style={{ cursor: 'pointer' }}
