@@ -1,5 +1,5 @@
 .collection-item { 
   display: flex;
   justify-content: space-between;
-  color: 'rgb(38, 93, 197)'
+  align-items: center;
 }
